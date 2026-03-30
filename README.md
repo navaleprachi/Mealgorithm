@@ -35,9 +35,9 @@ Managing groceries, planning meals, and staying on a student budget is overwhelm
     <td align="center"><b>🔍 Recipe Exploration</b></td>
   </tr>
   <tr>
-    <td><img src="screenshots/groceries.png" width="220" height="476"/></td>
-    <td><img src="screenshots/meal_plan.png" width="220" height="476"/></td>
-    <td><img src="screenshots/recipes.png" width="220" height="476"/></td>
+    <td><img src="screenshots/groceries.PNG" width="220" height="476"/></td>
+    <td><img src="screenshots/meal_plan.PNG" width="220" height="476"/></td>
+    <td><img src="screenshots/recipes.PNG" width="220" height="476"/></td>
   </tr>
   <tr>
     <td align="center"><b>📋 Recipe Detail</b></td>
@@ -45,9 +45,9 @@ Managing groceries, planning meals, and staying on a student budget is overwhelm
     <td align="center"><b>📊 Spending Insights</b></td>
   </tr>
   <tr>
-    <td><img src="screenshots/recipe_detail.png" width="220" height="476"/></td>
-    <td><img src="screenshots/budget_actual.png" width="220" height="476"/></td>
-    <td><img src="screenshots/budget_planned.png" width="220" height="476"/></td>
+    <td><img src="screenshots/recipe_detail.PNG" width="220" height="476"/></td>
+    <td><img src="screenshots/budget_actual.PNG" width="220" height="476"/></td>
+    <td><img src="screenshots/budget_planned.PNG" width="220" height="476"/></td>
   </tr>
 </table>
  
