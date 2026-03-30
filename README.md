@@ -1,7 +1,8 @@
 <div align="center">
 
 # 🍽️ Mealgorithm
-### *Your Life. In Sync.*
+
+### _Your Life. In Sync._
 
 **An AI-powered iOS app helping university students manage groceries, plan meals, and track budgets — all in one place.**
 
@@ -24,43 +25,58 @@ Managing groceries, planning meals, and staying on a student budget is overwhelm
 > 💰 Saves students an estimated **$50–$100/month**
 
 ---
- 
+
 ## 📱 App Preview
- 
-<div align="center">
- 
-| Grocery Management | AI Meal Planning | Recipe Exploration |
-|:---:|:---:|:---:|
-| <img src="screenshots/groceries.png" width="220"/> | <img src="screenshots/meal_plan.png" width="220"/> | <img src="screenshots/recipes.png" width="220"/> |
- 
-| Recipe Detail | Budget Tracking | Spending Insights | Settings |
-|:---:|:---:|:---:|:---:|
-| <img src="screenshots/recipe_detail.png" width="180"/> | <img src="screenshots/budget_actual.png" width="180"/> | <img src="screenshots/budget_planned.png" width="180"/> | <img src="screenshots/settings.png" width="180"/> |
- 
-</div>
+
+<table>
+  <tr>
+    <td align="center"><b>🛒 Grocery Management</b></td>
+    <td align="center"><b>🤖 AI Meal Planning</b></td>
+    <td align="center"><b>🔍 Recipe Exploration</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/groceries.png" width="220" height="476"/></td>
+    <td><img src="screenshots/meal_plan.png" width="220" height="476"/></td>
+    <td><img src="screenshots/recipes.png" width="220" height="476"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>📋 Recipe Detail</b></td>
+    <td align="center"><b>💸 Budget Tracking</b></td>
+    <td align="center"><b>📊 Spending Insights</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/recipe_detail.png" width="220" height="476"/></td>
+    <td><img src="screenshots/budget_actual.png" width="220" height="476"/></td>
+    <td><img src="screenshots/budget_planned.png" width="220" height="476"/></td>
+  </tr>
+</table>
  
 ---
 
 ## ✨ Features
 
 ### 🛒 Grocery Management
+
 - Add groceries with name, quantity, and expiry date
 - Daily **push notifications at 9 AM** for items nearing expiry
 - Filter groceries by All / Expiring Soon / Expired
 - Planned: grocery categorization and AI barcode scanning
 
 ### 🤖 AI-Driven Meal Planning
+
 - Select meal types (Breakfast, Lunch, Dinner) across dates
 - Personalized recipe suggestions based on dietary preferences
 - Instant **recipe swapping** for flexibility
 - Offline access to planned meals
 
 ### 🔍 Recipe Exploration
+
 - Curated recipes fetched from the **Spoonacular API**
 - Search by keywords or ingredients
 - Full-screen detail views: Ingredients, Instructions, Nutrition, Cook Time
 
 ### 💸 Budget Tracking
+
 - Track expenses across categories: Groceries, Rent, Dining, Shopping, Miscellaneous
 - Visualize spending with **Pie Charts**
 - Set monthly planned budgets per category
@@ -68,11 +84,13 @@ Managing groceries, planning meals, and staying on a student budget is overwhelm
 - Overspending flagged visually with warnings
 
 ### 👤 User Personalization
+
 - Onboarding captures dietary preference, grocery day, meal goal
 - All suggestions and notifications personalized to your profile
 - Update preferences anytime from Settings
 
 ### 🔔 Push Notifications
+
 - Daily expiry reminders to reduce food waste
 - Planned: meal prep reminders before cooking time
 
@@ -80,16 +98,16 @@ Managing groceries, planning meals, and staying on a student budget is overwhelm
 
 ## 🏗️ Technical Architecture
 
-| Layer | Technology |
-|---|---|
-| Frontend UI | SwiftUI |
-| Data Persistence | Core Data |
-| External API | Spoonacular API |
-| Notifications | UNUserNotificationCenter |
-| Data Visualization | Swift Charts |
-| Architecture Pattern | MVVM |
-| State Management | @State, @Binding, @ObservedObject |
-| Navigation | NavigationStack |
+| Layer                | Technology                        |
+| -------------------- | --------------------------------- |
+| Frontend UI          | SwiftUI                           |
+| Data Persistence     | Core Data                         |
+| External API         | Spoonacular API                   |
+| Notifications        | UNUserNotificationCenter          |
+| Data Visualization   | Swift Charts                      |
+| Architecture Pattern | MVVM                              |
+| State Management     | @State, @Binding, @ObservedObject |
+| Navigation           | NavigationStack                   |
 
 ---
 
@@ -118,6 +136,7 @@ Mealgorithm/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Xcode 15+
 - iOS 17+
 - A free [Spoonacular API key](https://spoonacular.com/food-api)
@@ -125,6 +144,7 @@ Mealgorithm/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/navaleprachi/Mealgorithm.git
    cd Mealgorithm
@@ -133,15 +153,19 @@ Mealgorithm/
 2. **Add your API key**
 
    Duplicate the template file and add your key:
+
    ```bash
    cp Mealgorithm/Secrets.swift.template Mealgorithm/Secrets.swift
    ```
+
    Then open `Secrets.swift` and replace the placeholder:
+
    ```swift
    let spoonacularAPIKey = "YOUR_API_KEY_HERE"
    ```
 
 3. **Open in Xcode**
+
    ```bash
    open Mealgorithm.xcodeproj
    ```
@@ -154,30 +178,33 @@ Mealgorithm/
 
 ## 🆚 How Mealgorithm Compares
 
-| Feature | Mealgorithm | Meal Apps | Budget Apps | Grocery Apps |
-|---|:---:|:---:|:---:|:---:|
-| Meal Planning | ✅ | ✅ | ❌ | ❌ |
-| Budget Tracking | ✅ | ❌ | ✅ | ❌ |
-| Grocery Management | ✅ | Partial | ❌ | ✅ |
-| Expiry Tracking | ✅ | ❌ | ❌ | Few |
-| AI Personalization | ✅ | Limited | Limited | Minimal |
-| All-in-One | ✅ | ❌ | ❌ | ❌ |
+| Feature            | Mealgorithm | Meal Apps | Budget Apps | Grocery Apps |
+| ------------------ | :---------: | :-------: | :---------: | :----------: |
+| Meal Planning      |     ✅      |    ✅     |     ❌      |      ❌      |
+| Budget Tracking    |     ✅      |    ❌     |     ✅      |      ❌      |
+| Grocery Management |     ✅      |  Partial  |     ❌      |      ✅      |
+| Expiry Tracking    |     ✅      |    ❌     |     ❌      |     Few      |
+| AI Personalization |     ✅      |  Limited  |   Limited   |   Minimal    |
+| All-in-One         |     ✅      |    ❌     |     ❌      |      ❌      |
 
 ---
 
 ## 🔮 Roadmap
 
 **Short Term**
+
 - [ ] Grocery categorization + AI barcode scanning
 - [ ] Meal prep reminders
 - [ ] Grocery-to-buy list integration
 
 **Medium Term**
+
 - [ ] Cloud syncing with CloudKit / Firebase
 - [ ] Instacart integration for direct grocery ordering
 - [ ] Collaborative meal and grocery planning
 
 **Long Term**
+
 - [ ] AI-powered grocery predictions
 - [ ] Nutrition analytics and gamification
 - [ ] Premium subscription features
@@ -200,6 +227,7 @@ Frontend Engineer · MS Information Systems, Northeastern University
 This project was developed as a final project for **INFO 6350 Smartphones-Based Web Development** at Northeastern University (Spring 2025).
 
 ---
+
 Copyright &copy; 2025 Prachi Navale. All rights reverseved.
 
 <div align="center">
