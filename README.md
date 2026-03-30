@@ -228,8 +228,9 @@ This project was developed as a final project for **INFO 6350 Smartphones-Based 
 
 ---
 
-Copyright &copy; 2025 Prachi Navale. All rights reverseved.
-
 <div align="center">
   <i>Built with ❤️ for students who want to eat well, waste less, and spend smarter.</i>
+  <br/><br/>
+ 
+  Copyright © 2025 Prachi Navale · All rights reserved.
 </div>
